@@ -1,0 +1,18 @@
+######## YOU NEED GNUPLOT TO RUN THIS PROGRAM #######
+
+1. Download the package and unzip it.
+
+2. Open a terminal window inside the unzipped folder and run the install.sh service by typing "sh install.sh"
+
+3. Execute the program DSDH by typing "./DSDH" . 
+
+4. If error is shown then first compile by typing in the terminal "gfortran -o DSDH 12C_12C_DD.f90"
+
+5. Inputs are, i) Number of desired events, ii) Min and Max polar and azimuthal angle of the detector for detecting scattered 12C.
+ 
+6. Any modification needed can be done in the "12C_12C_DD.f90" program and then recompiling again. FORTRAN Compiler "gfortran" is reccommended.
+
+7. Any specific plotting modifications can be done in "*.plt" files.
+
+8. For any feedback and issues, please contact at "abhijitb498@gmail.com" .
+
